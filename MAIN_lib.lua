@@ -42,9 +42,9 @@ function Lib:Drag(frame,parent)
 end
 
 function Lib.Window(Title)
-	Title = Title or "Ui Library"
+	Title = Title or "✨UGINITY✨"
 
-	local ✨UGINITY✨ = Instance.new("ScreenGui")
+	local UiLib = Instance.new("ScreenGui")
 	local Main = Instance.new("Frame")
 	local MainCorner = Instance.new("UICorner")
 	local TabFrame = Instance.new("Frame")
