@@ -41,8 +41,8 @@ function Lib:Drag(frame,parent)
 	end)
 end
 
-function Lib.Window(Title)
-	Title = Title or "Ui Library"
+function Lib.Window(✨UGINITY✨)
+	Title = Title or "✨UGINITY✨"
 
 	local UiLib = Instance.new("ScreenGui")
 	local Main = Instance.new("Frame")
@@ -64,12 +64,12 @@ function Lib.Window(Title)
 
 	--Properties:
 
-	UiLib.Name = "UiLib"
+	UiLib.Name = "✨UGINITY✨"
 	UiLib.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 	UiLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 	Main.Name = "Main"
-	Main.Parent = UiLib
+	Main.Parent = ✨UGINITY✨
 	Main.BackgroundColor3 = Color3.fromRGB(31, 25, 44)
 	Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Main.BorderSizePixel = 0
