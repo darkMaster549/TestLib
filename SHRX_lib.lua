@@ -41,8 +41,8 @@ function Lib:Drag(frame,parent)
 	end)
 end
 
-function Lib.Window(✨UGINITY✨)
-	Title = Title or "✨UGINITY✨"
+function Lib.Window(Title)
+	Title = Title or "Ui Library"
 
 	local UiLib = Instance.new("ScreenGui")
 	local Main = Instance.new("Frame")
@@ -64,12 +64,12 @@ function Lib.Window(✨UGINITY✨)
 
 	--Properties:
 
-	UiLib.Name = "✨UGINITY✨"
+	UiLib.Name = "UiLib"
 	UiLib.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 	UiLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 	Main.Name = "Main"
-	Main.Parent = ✨UGINITY✨
+	Main.Parent = UiLib
 	Main.BackgroundColor3 = Color3.fromRGB(31, 25, 44)
 	Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Main.BorderSizePixel = 0
@@ -161,7 +161,7 @@ function Lib.Window(✨UGINITY✨)
 	TopCorner.Name = "TopCorner"
 	TopCorner.Parent = TopBar
 
-	LibraryTitle.Name = "LibraryTitle"
+	LibraryTitle.Name = "✨UGINITY✨"
 	LibraryTitle.Parent = TopBar
 	LibraryTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	LibraryTitle.BackgroundTransparency = 1.000
@@ -171,7 +171,7 @@ function Lib.Window(✨UGINITY✨)
 	LibraryTitle.Size = UDim2.new(0, 300, 0, 39)
 	LibraryTitle.ZIndex = 5
 	LibraryTitle.FontFace = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.ExtraBold, Enum.FontStyle.Normal);
-	LibraryTitle.Text = "UI Lib"
+	LibraryTitle.Text = "✨UGINITY✨"
 	LibraryTitle.TextColor3 = Color3.fromRGB(227, 227, 227)
 	LibraryTitle.TextScaled = true
 	LibraryTitle.TextSize = 37.000
