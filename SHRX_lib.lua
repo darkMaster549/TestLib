@@ -161,7 +161,7 @@ function Lib.Window(Title)
 	TopCorner.Name = "TopCorner"
 	TopCorner.Parent = TopBar
 
-	LibraryTitle.Name = "✨UGINITY✨"
+	LibraryTitle.Name = "Uilib"
 	LibraryTitle.Parent = TopBar
 	LibraryTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	LibraryTitle.BackgroundTransparency = 1.000
