@@ -54,7 +54,7 @@ function Lib.Window(Title)
 	local UIListLayout = Instance.new("UIListLayout")
 	local TopBar = Instance.new("Frame")
 	local TopCorner = Instance.new("UICorner")
-	local LibraryTitle = Instance.new("TextLabel")
+	local LibraryTitle = Instance.new("✨UGINITY✨")
 	local Extension = Instance.new("Frame")
 	local ExtensionCorner = Instance.new("UICorner")
 	local ContentHolder = Instance.new("Folder")
@@ -68,7 +68,7 @@ function Lib.Window(Title)
 	UiLib.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 	UiLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-	Main.Name = "Main"
+	Main.Name = "✨UGINITY✨"
 	Main.Parent = UiLib
 	Main.BackgroundColor3 = Color3.fromRGB(31, 25, 44)
 	Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
