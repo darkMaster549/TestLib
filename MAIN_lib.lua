@@ -64,7 +64,7 @@ function Lib.Window(Title)
 
 	--Properties:
 
-	UiLib.Name = "UiLib"
+	UiLib.Name = "✨UGINITY✨"
 	UiLib.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 	UiLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
